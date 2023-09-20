@@ -1,0 +1,12 @@
+*{
+    color: #fff;
+}
+tr:nth-child(3n+1){
+    background-color:#999;
+}
+tr:nth-child(3n+2){
+    background-color:#444;
+}
+tr:nth-child(3n){
+    background-color:#000;
+}

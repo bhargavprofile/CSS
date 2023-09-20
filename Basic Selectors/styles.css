@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #444;
+}
+.nav_list{
+    padding: 0px;
+}
+.nav_list li {
+    display: inline-block;
+    padding: 15px 15px;
+    color: #fff;
+    font-size: 20px;
+}
+.nav_list li:hover{
+    background-color: #000;
+}
+.react:hover{
+   width: 650px;
+}
+tr:nth-child(3n+1){
+    background-color:rgb(191, 218, 233);
+}
+tr:nth-child(3n+2){
+    background-color:rgb(126, 179, 236);
+}
+tr:nth-child(3n){
+    background-color:rgb(16, 125, 240);
+}
+.courses{
+    list-style-type: none;
+    font-size: 28px;
+}
+
+

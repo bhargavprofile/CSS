@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 4%;
+}
+nav .logo-name{
+    list-style: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav .logo-name a {
+    text-decoration: none;
+    color: teal;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+.nav-items li {
+    margin: 20px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.nav-items li a {
+    text-decoration: none;
+    color: teal;
+}
+.header{
+    height: 500px;
+    background-image: url('./sunrise.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.main-heading {
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    width: 400px;
+    letter-spacing: 1.2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-para{
+    margin-bottom: 15px;
+    color: #a8b0b1;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    width: 200px;
+}
+.down-arrow{
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+}
+.down-arrow-btn{
+    background-color: #e45229;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+}
+.sec-2{
+    text-align: center;
+}
+.sec-2 h3{
+    color: teal;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.sec-2 p {
+    color: #a8b0b1;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.card-container{
+    background-color: #f6f6f6;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.card-items{
+    padding: 30px;
+}
+.card-items li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.fa-desktop, .fa-flask, .fa-gears, .fa-volume-low{
+    font-size: 42px;
+    color: #e45229;
+    margin-bottom: 10px;
+}
+.card-items{
+    border-right: 2px solid #a8b0b1;
+}
+.card-items2 {
+    list-style: none;
+    padding: 30px;
+}
+.card-items2 li{
+    margin-bottom: 15px;
+}
+.card-items li h4, .card-items2 h4{
+    color: teal;
+    font-size: 16px;
+}
+.card-items li p{
+    font-size: 14px;
+}
+.card-items button, .card-items2 button{
+    background-color: #a8b0b1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.card-items button a, .card-items2 button a  {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.fa-arrow-right, .fa-arrow-left{
+    background-color: #e45229;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 4px;
+    position: relative;
+}
+.left-right-arrow::before{
+    position: absolute;
+    left: 105px;
+    /* top: 0; */
+    content: '';
+    background: #a8b0b1;
+    height: 1px;
+    width: 40%;
+    margin-top: 10px;
+}
+.left-right-arrow::after{
+    position: absolute;
+    right: 105px;
+    content: '';
+    background: #a8b0b1;
+    height: 1px;
+    width: 40%;
+    margin-top: 10px;
+}
+

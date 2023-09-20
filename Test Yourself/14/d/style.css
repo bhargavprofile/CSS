@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    height: 380px;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: 0px 4px 8px 0px #555;
+}
+.card img{
+    width: 100%;
+}
+.card h1, p, .buttons{
+    padding: 12px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.edit{
+    background-color: #fec007;
+}
+.delete{
+    background-color: #dc3545;
+    color: #fff;
+}

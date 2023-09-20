@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    width: 200px;
+    text-align: center;
+}
+.card{
+    margin: 15px;
+}
+@media (min-width: 320px) and (max-width: 575px){
+    .card img{
+        width: 100%;
+    }
+    .card h5{
+        width: 100%;
+        font-size: 28px;
+        background-color: blueviolet;
+        color: #fff;
+    }
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #6200e9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 400px;
+    width: 340px;
+    background-color: #fff;;
+    box-shadow: 0px 4px 8px 0px #555;
+    border-radius: 5px;
+    padding: 2% 0% 0% 0%;
+    text-align: center;
+}
+.header-content{
+    text-align: center;
+}
+.header-content i{
+    background-color: #6004dc;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;;
+}
+.header-para{
+    font-size: 12px;
+    margin-top: 4px;
+}
+input[type="text"], input[type="password"]{
+     margin-top: 25px;
+     padding: 15px;
+     width: 80%;
+}
+.password-eye{
+    position: relative;
+}
+.password-eye i{
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    color: #999;
+}
+.checkbox-line{
+    width: 80%;
+    text-align: left;
+    padding-left: 48px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+label{
+    font-size: 12px;
+    margin-left: 4px;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 35px 0px;
+}
+.card-footer h5{
+    color: #6004dc;
+    font-size: 12px;
+}
+.card-footer button{
+    background-color: #6200e9;
+    color: #fff;
+    padding: 10px 12px;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.bottom-para{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
